@@ -32,11 +32,11 @@ function makeSound(key) {
       break;
 
     case "m":
-      var tom1 = new Audio("sounds/ly.mp3");
+      var tom1 = new Audio("sounds/tom-2.mp3");
       tom1.play();
       break;
 
-    case "a":
+    case "a":p
       var tom2 = new Audio("sounds/tom-2.mp3");
       tom2.play();
       break;
