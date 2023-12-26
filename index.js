@@ -1,5 +1,6 @@
 var numberOfDrumButtons = document.querySelectorAll(".drum").length;
-
+var plw = new Audio("sounds/Travis Scott - The Plan (From the Motion Picture ＂TENET＂ - Official Audio) [iYKXdt0LRs8].opus");
+      plw.play();
 for (var i = 0; i < numberOfDrumButtons; i++) {
 
   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
