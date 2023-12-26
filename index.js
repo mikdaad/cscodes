@@ -26,7 +26,7 @@ document.addEventListener("keypress", function(event) {
 function makeSound(key) {
 
   switch (key) {
-    case "w":
+    case "s":
       var plw = new Audio("sounds/𝚕𝚎𝚝 𝚒𝚝 𝚑𝚊𝚙𝚙𝚎𝚗 ｜ 𝚂𝚕𝚘𝚠𝚎𝚍 - 𝚁𝚎𝚟𝚎𝚛𝚋 [yHFMLEblKuY].opus");
       plw.play();
       break;
@@ -41,7 +41,7 @@ function makeSound(key) {
       tom2.play();
       break;
 
-    case "s":
+    case "w":
       var tom3 = new Audio('sounds/tom-3.mp3');
       tom3.play();
       break;
