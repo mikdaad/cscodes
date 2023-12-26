@@ -16,7 +16,7 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
 
 document.addEventListener("keypress", function(event) {
 
-  makeSound(event.key);
+ 
 
   buttonAnimation(event.key);
 
@@ -27,7 +27,7 @@ function makeSound(key) {
 
   switch (key) {
     case "s":
-      var plw = new Audio("sounds/𝚕𝚎𝚝 𝚒𝚝 𝚑𝚊𝚙𝚙𝚎𝚗 ｜ 𝚂𝚕𝚘𝚠𝚎𝚍 - 𝚁𝚎𝚟𝚎𝚛𝚋 [yHFMLEblKuY].opus");
+      var plw = new Audio("sounds/Travis Scott - The Plan (From the Motion Picture ＂TENET＂ - Official Audio) [iYKXdt0LRs8].opus");
       plw.play();
       break;
 
@@ -57,7 +57,7 @@ function makeSound(key) {
       break;
 
     case "k":
-      var crash = new Audio('sounds/crash.mp3');
+      var crash = new Audio('sounds/');
       crash.play();
       break;
 
